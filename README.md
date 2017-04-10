@@ -1,11 +1,17 @@
 # Simcity-3000-_Linux_Installer
 Simcity 3000 Unlimited Linux Installer Script made in python 2.x
 
-Simcity 3000/ Unlimited Linux Installer Python Script made by Tetration
-Github address: https://github.com/tetration
-Github repository: 
-Contact: Tetration@outlook.com
-Written for Python 2.X
+#Simcity 3000/ Unlimited Linux Installer Python Script made by Tetration
+
+
+#Github address: https://github.com/tetration
+
+
+#Github repository: 
+
+
+#Contact: Tetration@outlook.com
+#Written for Python 2.X
 
 
 # This script and the author of it is not responsible for any damages it might cause you including but not limited to: damaging your system, making your house burn, make you flunk at school or giving you stress. Use it at your own will and risk!
