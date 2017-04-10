@@ -20,9 +20,9 @@ Warning: In order to install Simciy 3000 (vanilla) or Unlimited you will need to
 
 Instructions:
 
-After that you will have to put your Simcity 30000 iso in the same directory of this python script installer and then launch the python installer
+After you moved your Simcity 30000 iso in the same directory of this python script installer and then launch the python installer
 
-To launch the python script you will have to start the linux terminal and then type cd (directory where python is located)
+To launch the python script you will have to start the linux terminal and then type cd (directory where this python script is located)
 
 After that to launch it type: python SCU3Installer.py
 
