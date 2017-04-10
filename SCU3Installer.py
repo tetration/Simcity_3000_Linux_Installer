@@ -73,6 +73,8 @@ def Check_Download():#Checks if SCU3 loki installer is already downloaded if not
 			print("Download Finished!")
 		else :
 			print("Error: Couldnt finish downloading.")
+			print("The program will exit now. Try again later by launching the program again!")
+			exit()
 	else : print("Installer already downloaded")
 	globalpath=os.path.isfile("sc3u_2.0a-multilingual_x86.mojo.run")
 
