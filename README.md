@@ -35,7 +35,7 @@ Warning: In order to install Simciy 3000 (vanilla) or Unlimited you will need to
 Enjoy the game!
 
 
-# Warning to make this installer run you might need to go to its properities and mark in its permissions "Allow executing file as program"
+Warning to make the SCU3installer launcher(sc3u_2.0a-multilingual_x86.mojo.run) that you just downloaded run with this script you might need to go to its properities and mark in its permissions "Allow executing file as program"
 
 
 
