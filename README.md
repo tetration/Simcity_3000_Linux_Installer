@@ -24,32 +24,38 @@ Simcity 3000 Unlimited Linux Installer Script made in python 2.x
 Warning: In order to install Simciy 3000 (vanilla) or Unlimited you will need to have your legally purchased cdrom or legal backup iso of Simcity 3000/3000 unlimited Linux Edition. This program wont provide it or endorse piracy under any circumstances
 
 
-Instructions:
+# Instructions:
 
-After you moved your Simcity 30000 iso in the same directory of this python script installer and then launch the python installer
+1: Move your Simcity 3000 or Simcity 3000 Unlimited iso in the same directory of this python script installer and then launch the python installer
 
-To launch the python script you will have to start the linux terminal and then type cd (directory where this python script is located)
+2: To launch the python script you will have to start the linux terminal and then type cd (directory where this python script is located) example: cd /home/YourUsername/Desktop/PythonScriptFolder 
 
-After that to launch it type: python SCU3Installer.py
+3:After that to launch it type in the terminal: python SCU3Installer.py
 
 Enjoy the game!
 
 
+# Warning to make this installer run you might need to go to its properities and mark in its permissions "Allow executing file as program"
 
 
 
 
-
-Instructions if you want to do everything manually without my installer:
+# Instructions if you want to do everything manually without my installer:
 
 Warning: In order to install Simciy 3000 (vanilla) or Unlimited you will need the cdrom or the iso of one of them.
 Download the installer:
+
 https://www.liflg.org/?what=dl&catid=7&gameid=99&filename=sc3u_2.0a-multilingual_x86.mojo.run", "sc3u_2.0a-multilingual_x86.mojo.run
-And then type the following commands in linux terminal to 
+
+
+And then type the following commands in linux terminal
+
 su 
 mkdir /media/cdrom 
 mount Simcty3000unlimited.iso /media/cdrom
 ./sc3u_2.0a-multilingual_x86.mojo.run
+
+
 Warning to make installer run dont forget to go to its properities and mark in its permissions "Allow executing file as program"
 
 In order to get sound in your game you will need to type the following commands
