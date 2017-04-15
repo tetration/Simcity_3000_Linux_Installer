@@ -82,11 +82,9 @@ def Check_Download():#Checks if SCU3 loki installer is already downloaded if not
 
 
 def launch():
-	#print(globalpath)
-	#s=("")
-	#seq=("cd ",globalpath)
-	#print("Launching...")
-	#os.system(s.join(seq))
+#If user didnt type sude when launching python script he will be asked in order to make the .run file launch itself successfully
+	print("The program will need sudo permissions to launch the file /sc3u_2.0a-multilingual_x86.mojo.run")
+	os.system("sudo chmod +x ./sc3u_2.0a-multilingual_x86.mojo.run")
 	os.system("./sc3u_2.0a-multilingual_x86.mojo.run")
 
 def installOSSPD():
