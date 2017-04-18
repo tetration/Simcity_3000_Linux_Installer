@@ -72,5 +72,13 @@ Also if the last part didnt work to get it running at the same resolution as you
 If anyone knows how to make the shortcut in desktop or the panel go fullscreen at the right computer´s resolution please tell me so.
 
 
+# FAQ:
+-Your python script fails to download the setup installer!
 
-# Tested under: Linux Mint 17.3 Cinammon 64 bit
+It seens like sometimes the installer fails to finish downloading the installer. Due to the slow internet speeds of the website that hosts the old loki games setup installers.
+
+While we dont have a work around the best way to fix it is to download it manually(https://liflg.org/?catid=7) and then placing it in the same python folder of this script. Which will make the installation work.
+
+
+
+Tested under: Linux Mint 17.3 Cinammon 64 bit, Deepin Linux 15.3 64 bit
