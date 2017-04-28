@@ -74,7 +74,7 @@ If anyone knows how to make the shortcut in desktop or the panel go fullscreen a
 
 
 # FAQ:
--Your python script fails to download the setup installer!
+- Your python script fails to download the setup installer!
 
 It seens like sometimes the installer fails to finish downloading the installer. Due to the slow internet speeds of the website that hosts the old loki games setup installers.
 
@@ -84,7 +84,7 @@ While we dont have a work around the best way to fix it is to download it manual
 
 As I stated above in the Readme of this python script github repository the installer will only be able to install and detect this game if its Simcity 3000 or Simcity 3000 Unlimited Linux Edition made by Loki Games. This Software isnt some kind of magic wizard that will be able to turn Simcity for windows into Simcity for linux. Please be aware that Sim City 3000 or Simcity 3000 Unlimited Linux Edition, made by Loki game is a complete distinct version of the Simcity 3000 or Simcity 3000 Unlimited made for Linux. If you want to use your windows version on a Linux machine please go use Wine.
 
-I have the Linux Edition. Why would I need your installer than the original one that comes in the CD that I bough back in the day?
+- I have the Linux Edition. Why would I need your installer than the original one that comes in the CD that I bough back in the day?
 
 You need my installer because Linux changed a lot in the last 20 years and even if you are able to install it you will probably run it without a lot of issues such as the game not running correctly, audio missing and other glitches in modern Linux machines. My Installer makes sure to install it perfectly in modern Linux Machines and it also install packages needed to make the audio of the game work in the newest Linux Distributions.
 
