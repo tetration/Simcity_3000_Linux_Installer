@@ -88,6 +88,9 @@ As I stated above in the Readme of this python script github repository the inst
 
 You need my installer because Linux changed a lot in the last 20 years and even if you are able to install it you will probably run it without a lot of issues such as the game not running correctly, audio missing and other glitches in modern Linux machines. My Installer makes sure to install it perfectly in modern Linux Machines and it also install packages needed to make the audio of the game work in the newest Linux Distributions.
 
+- Will you ever port your python script to python 3?
+
+ Someday when I have enough free time to study and find the main differences between python 2 and python 3 and what would be the best way to convert each line in it. In the meantime I recommend you to install Python 2 to use my script. 
 
 
 Tested under: Linux Mint 17.3 Cinammon 64 bit, Deepin Linux 15.3 64 bit
