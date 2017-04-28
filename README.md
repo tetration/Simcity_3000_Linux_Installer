@@ -23,6 +23,7 @@ Simcity 3000 Unlimited Linux Installer Script made in python 2.x
 
 Warning: In order to install Simciy 3000 (vanilla) or Unlimited you will need to have your legally purchased cdrom or legal backup iso of Simcity 3000/3000 unlimited Linux Edition. This program wont provide it or endorse piracy under any circumstances
 
+Please be aware Simcity 3000 and Simcity 3000 Unlimited for Linux are complete distinct versions of the game. If you bought the Windows version you can only run the game on a Windows machine or on a Linux machine through Wine. My Python script can only help the people who have the Loki Games Linux Edition of this game.
 
 # Instructions:
 
@@ -78,6 +79,14 @@ If anyone knows how to make the shortcut in desktop or the panel go fullscreen a
 It seens like sometimes the installer fails to finish downloading the installer. Due to the slow internet speeds of the website that hosts the old loki games setup installers.
 
 While we dont have a work around the best way to fix it is to download it manually(https://liflg.org/?catid=7) and then placing it in the same python folder of this script. Which will make the installation work.
+
+- I´ve tried to install Simcity3000 on my linux machine using my Windows copy of Simcity 3000/3000 unlimited and your installer wont detect or accept them! Your software is broken!!!! Go fix it!!!!
+
+As I stated above in the Readme of this python script github repository the installer will only be able to install and detect this game if its Simcity 3000 or Simcity 3000 Unlimited Linux Edition made by Loki Games. This Software isnt some kind of magic wizard that will be able to turn Simcity for windows into Simcity for linux. Please be aware that Sim City 3000 or Simcity 3000 Unlimited Linux Edition, made by Loki game is a complete distinct version of the Simcity 3000 or Simcity 3000 Unlimited made for Linux. If you want to use your windows version on a Linux machine please go use Wine.
+
+I have the Linux Edition. Why would I need your installer than the original one that comes in the CD that I bough back in the day?
+
+You need my installer because Linux changed a lot in the last 20 years and even if you are able to install it you will probably run it without a lot of issues such as the game not running correctly, audio missing and other glitches in modern Linux machines. My Installer makes sure to install it perfectly in modern Linux Machines and it also install packages needed to make the audio of the game work in the newest Linux Distributions.
 
 
 
