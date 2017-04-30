@@ -86,7 +86,7 @@ As I stated above in the Readme of this python script github repository the inst
 
 - I have the Linux Edition. Why would I need your installer instead of the original one that comes in the CD that I bough back in the day?
 
-You need my installer because Linux changed a lot in the last 20 years and even if you are able to install it you will probably run it without a lot of issues such as the game not running correctly, audio missing and other glitches in modern Linux machines. My Installer makes sure to install it perfectly in modern Linux Machines and it also install packages needed to make the audio of the game work in the newest Linux Distributions.
+You need my installer because Linux changed a lot in the last 20 years and even if you are able to install it on your own you will probably run it with a lot of issues such as the game not running correctly, audio missing and other glitches in modern Linux machines. My Installer makes sure to install it perfectly in modern Linux Machines and it also install packages needed to make the audio of the game work in the newest Linux Distributions.
 
 - Will you ever port your python script to python 3?
 
