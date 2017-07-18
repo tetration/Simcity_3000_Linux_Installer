@@ -1,6 +1,8 @@
 # Simcity-3000-_Linux_Installer
 Simcity 3000 Unlimited Linux Installer Script made in python 2.x
 
+Project Page: https://tetration.github.io/Simcity3000_Modding_Revival/linux_installer_page.html
+
 # Simcity 3000/ Unlimited Linux Installer Python Script made by Tetration
 
 
