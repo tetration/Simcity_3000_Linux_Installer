@@ -26,6 +26,7 @@ import urllib
 import os
 import subprocess
 import fnmatch
+import zipfile
 
 globalpath=""
 
@@ -69,9 +70,10 @@ def unmountISO_and_deletedir():
 def Check_Download():#Checks if SCU3 loki installer is already downloaded if not it will start downloading it
 	if os.path.isfile("sc3u_2.0a-multilingual_x86.mojo.run")==False:
 		print("Downloading liflg installer...(Dont quit the program! wait until its over!)")
-		urllib.urlretrieve ("https://www.liflg.org/?what=dl&catid=7&gameid=99&filename=sc3u_2.0a-multilingual_x86.mojo.run", "sc3u_2.0a-multilingual_x86.mojo.run")
-		if urlretrieve==True:
+		urllib.urlretrieve("https://drive.google.com/uc?export=download&id=11YoyJH2oSW74i-AonejJ59It8NJIaf1h","SCU3Installer_patch.zip")
+		if os.path.isfile("SCU3Installer_patch.zip")==True:
 			print("Download Finished!")
+			extract_and_Delete_zip()
 		else :
 			print("Error: Couldnt finish downloading.")
 			print("The program will exit now. Try again later by launching the program again!")
@@ -79,7 +81,16 @@ def Check_Download():#Checks if SCU3 loki installer is already downloaded if not
 	else : print("Installer already downloaded")
 	globalpath=os.path.isfile("sc3u_2.0a-multilingual_x86.mojo.run")
 
-
+def extract_and_Delete_zip():#extracts patch to run the game in modern Linux platforms
+		src_file=os.path.join(os.curdir,"SCU3Installer_patch.zip")
+		extr_file=os.path.join(os.curdir)
+		print("Extracting files...")
+		zip_ref = zipfile.ZipFile(src_file, 'r')
+		zip_ref.extractall(extr_file)
+		zip_ref.close()
+		print("Extraction complete!")
+		print("Deleting zipfile...")
+		os.remove(src_file)
 
 
 def launch():
