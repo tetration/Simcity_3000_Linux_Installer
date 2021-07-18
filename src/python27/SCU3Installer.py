@@ -55,16 +55,13 @@ def mkdirandmount(file):
 	os.system("cd ./")
 	os.system(s.join(seq))
 
-def unmountISO_and_deletedir():
-#Warning: Caution when trying to change this part of the program!
-#Typing the wrong directory for it to the delete might break/damage your system!
-# I recommend you to leave it the way it is
+def unmountISO():
+#Unmounts the iso file from media/cdrom
 	s=("")
 	seq=('sudo ','umount ', '/media/cdrom')
 	print(s.join(seq))
 	os.system("cd ./")
 	os.system(s.join(seq))
-	os.system("sudo rmdir /media/cdrom")
 
 
 def Check_Download():#Checks if SCU3 loki installer is already downloaded if not it will start downloading it
@@ -117,7 +114,7 @@ def main():#All the steps the program will do with its functions
 	Check_Download()
 	Check_ISO()
 	launch()
-	unmountISO_and_deletedir()
+	unmountISO()
 	installOSSPD()
 	print("Installation Complete")
 	
