@@ -13,7 +13,7 @@ Project Page: https://tetration.github.io/Simcity3000_Modding_Revival/linux_inst
 
 
 # Contact: Tetration@outlook.com
-# Written for Python 2.X
+# Written for Python 2.X , Python 3.X and Bash
 
 
 # This script and the author of it is not responsible for any damages it might cause you including but not limited to: damaging your system, making your house burn, make you flunk at school or giving you stress. Use it at your own will and risk!
@@ -31,9 +31,10 @@ Please be aware Simcity 3000 and Simcity 3000 Unlimited for Linux are complete d
 
 1: Move your Simcity 3000 or Simcity 3000 Unlimited iso in the same directory of this python script installer and then launch the python installer
 
-2: To launch the python script you will have to start the linux terminal and then type cd (directory where this python script is located) example: cd /home/YourUsername/Desktop/PythonScriptFolder 
+2: To launch the python2,python3 or the bash script you will have to start the linux terminal and then type cd (directory where this python script is located) example: cd /home/YourUsername/Desktop/ScriptFolder 
 
-3:After that to launch it type in the terminal: python SCU3Installer.py
+3:After that to launch it type in the terminal: python SCU3Installer.py 
+or if its the bash script type in the terminal: bash SCU3Installer.sh
 
 Enjoy the game!
 
@@ -88,11 +89,7 @@ As I stated above in the Readme of this python script github repository the inst
 
 - I have the Linux Edition. Why would I need your installer instead of the original one that comes in the CD that I bough back in the day?
 
-You need my installer because Linux changed a lot in the last 20 years and even if you are able to install it on your own you will probably run it with a lot of issues such as the game not running correctly, audio missing and other glitches in modern Linux machines. My Installer makes sure to install it perfectly in modern Linux Machines and it also install packages needed to make the audio of the game work in the newest Linux Distributions.
-
-- Will you ever port your python script to python 3?
-
- Someday when I have enough free time to study and find the main differences between python 2 and python 3 and what would be the best way to convert each line in it. In the meantime I recommend you to install Python 2 to use my script. 
+You need my installer because Linux changed a lot in the last 20 years and even if you are able to install it on your own you will probably run it with a lot of issues such as the game not running correctly, audio missing and other glitches in modern Linux machines. My Installer makes sure to install it perfectly in modern Linux Machines and it also install packages needed to make the audio of the game work in the newest Linux Distributions. 
 
 
 Tested under: Linux Mint 17.3 Cinammon 64 bit, Deepin Linux 15.3 64 bit
